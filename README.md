@@ -17,7 +17,7 @@ its better to use GPU for training and the "device" should be n-1 which means n=
 
 ## Results
 
-<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/runs/train/ppedetector/results.png" width="400" />
+<img src="https://github.com/sharjeelanjum/blob/main/PPE_Detector_YOLOV7/runs/train/ppedetector/results.png" width="400" />
 
 
 ## Citation
