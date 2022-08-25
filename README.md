@@ -15,6 +15,10 @@ python train.py --batch=4 --cfg=cfg/training/yolov7.yaml --epochs=300 --data=./d
 
 its better to use GPU for training and the "device" should be n-1 which means n=number of GPUs, in my case I used so therefore it is "device=0"
 
+## Results
+
+<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/runs/train/ppedetector/results.png" width="400" />
+
 
 ## Citation
 
