@@ -26,6 +26,7 @@ its better to use GPU for training and the "device" should be n-1 which means n=
   year={2022}
 }
 ```
+```
 @misc{ ppe-hc4lw_dataset,
     title = { PPE Dataset },
     type = { Open Source Dataset },
@@ -38,13 +39,13 @@ its better to use GPU for training and the "device" should be n-1 which means n=
     month = { jun },
     note = { visited on 2022-08-25 },
 }
-
-
+```
 
 ## Acknowledgements
 
 <details><summary> <b>Expand</b> </summary>
-
+  
+* [https://github.com/WongKinYiu/yolov7]
 * [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
 * [https://github.com/WongKinYiu/yolor](https://github.com/WongKinYiu/yolor)
 * [https://github.com/WongKinYiu/PyTorch_YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4)
