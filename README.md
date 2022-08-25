@@ -2,6 +2,16 @@
 
 Thanks to the autors of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
 
+
+## Results
+
+<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/results.png" width="400" />
+
+<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/%24filename003.jpg" width="400" />
+<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/%24filename010.jpg" width="400" />
+<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/%24filename064.jpg" width="400" />
+
+
 ## To perform inference
 extract the best.7z.001 weights from runs/train/ppedetector and then use the below command in anaconda promt.
 
@@ -14,14 +24,6 @@ Download your custom dataset and paste into main repository and use the below co
 python train.py --batch=4 --cfg=cfg/training/yolov7.yaml --epochs=300 --data=./dataset/data.yaml --weights='./yolov7.pt' --device=0
 
 its better to use GPU for training and the "device" should be n-1 which means n=number of GPUs, in my case I used so therefore it is "device=0"
-
-## Results
-
-<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/results.png" width="400" />
-
-<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/%24filename003.jpg" width="400" />
-<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/%24filename010.jpg" width="400" />
-<img src="https://github.com/sharjeelanjum/PPE_Detector_YOLOV7/blob/main/runs/train/ppedetector/%24filename064.jpg" width="400" />
 
 
 ## Citation
